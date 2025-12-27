@@ -1,0 +1,78 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CFA Level 1",
+    "section": "",
+    "text": "Foreword\nYou can use this book to prepare for the Level I examination of the CFA Institute’s professional designation. Try to complete the related practice questions after each lesson.\nYou may send your comments and suggestions for improving the book to the author via email at mohsenebrahimy.ir@gmail.com so that corrections and improvements can be incorporated in each update.\nThis version was updated on 2025-12-27\n\nI hope you find this book useful.\n\n\n\n\n\n\nWarning\n\n\n\nThis book consists of notes taken by Mohsen Ebrahimi from the course sessions. The materials presented are not directly affiliated with or endorsed by the course instructors. If you notice any potential errors, please report them to the author.",
+    "crumbs": [
+      "Foreword"
+    ]
+  },
+  {
+    "objectID": "ethics/01.html",
+    "href": "ethics/01.html",
+    "title": "Ethics and Trust in the Investment Profession",
+    "section": "",
+    "text": "Intorduction\nstateDiagram-v2\n    state Behavior {\n        Ethical\n        Professional\n    }\n\n    Behavior --&gt; Trust\nstateDiagram-v2\n\n    FinancialServicesFirm: Financial Services Firm\n    state FinancialServicesFirm {\n        SharesOfCompanies: Shares of Companies\n        Employees --&gt; SharesOfCompanies\n        state SharesOfCompanies {\n            Researching\n            Analyzing\n            Valuing\n        }\n    }\n\n    FinancialServicesFirm --&gt; Clients: Investment Recommendations\n    state Clients {\n        MakeDecision: Make Decision\n        ImproveLives: Improve Lives\n\n        MakeDecision --&gt; ImproveLives: Meet Financial Goals\n    }\nstateDiagram-v2\n    im: Investment Manager\n    state im {\n        bp: Business Practices\n        to: transparent and open\n        e: Ethical\n\n        bp --&gt; to\n        bp --&gt; e\n    }",
+    "crumbs": [
+      "Ethical and Professional Standards",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ethics and Trust in the Investment Profession</span>"
+    ]
+  },
+  {
+    "objectID": "ethics/01.html#ethics",
+    "href": "ethics/01.html#ethics",
+    "title": "Ethics and Trust in the Investment Profession",
+    "section": "Ethics",
+    "text": "Ethics\n\nStakeholders\nindividuals or groups of individuals who could be affected either directly or indirectly by a decision and thus have an interest, or stake, in the decision.\n\n\n\n\n\nmindmap\n    root((Stakeholders))\n        (Colleagues)\n        (Clients)\n        (Employers)\n        (Communities)\n        (Investment profession)\n        (Trade associations)\n        (Regulators)\n        (Other financial market participants.)\n\n\n\n\n\n\n\n\nEthics\na set of moral principles and rules of conduct that provide guidance for our behavior.\n\n\n\n\n\nstateDiagram-v2\n    e: Moral or ethical principles\n    state e {\n        direction LR\n        Honesty\n        Transparency\n        Fairness\n        Justice\n        Diligence\n        Respect\n    }\n    w: What is ... Behavior?\n    g: Good, Acceptable or Obligatory\n    b: Bad, Unacceptable or Forbidden\n    e --&gt; w\n    w --&gt; g\n    w --&gt; b\n    \n\n\n\n\n\n\n\n\nRemark. Investment advisers and portfolio managers must always put their clients’ interests ahead of their own or their employers’ interests.\n\n\n\n\n\n\nstateDiagram-v2\n    direction LR\n\n    Standard --&gt; Suitability\n    Standard --&gt; Fiduciary\n    re: Retrun Requirments\n    rt: Risk Tolerance\n    Suitability --&gt; re\n    Suitability --&gt; rt\n    Fiduciary --&gt; Knowledge\n    Fiduciary --&gt; Expertise\n\n\n\n\n\n\n\nCode of Ethics\nThe code of ethics serves as a general guide for how community members should act.\n\n\nWhich of the following statements is most accurate? Ethics can be described as:\n\na commitment to upholding the law.\nan individual’s personal opinion about right and wrong.\na set of moral principles that provide guidance for our behavior.\n\n\n\nSolution:\n\nC is correct. Ethics can be described as a set of moral principles that provide guidance for our behavior; these may be moral principles shared by a community or societal group.\n\n\n\nWhich of the following statements is most accurate? Standards of conduct:\n\nare a necessary component of any code of ethics.\nserve as a general guide regarding proper conduct by members of a group.\nserve as benchmarks for the minimally acceptable behavior required of members of a group.\n\n\n\nSolution:\n\nC is correct. Standards of conduct serve as benchmarks for the minimally acceptable behavior required of members of a group. Some organizations will adopt only a code of ethics, which communicates the organization’s values and overall expectations regarding member behavior. Others may adopt both a code of ethics and standards of conduct. Standards of conduct identify specific behavior required of community members and serve as benchmarks for the minimally acceptable behavior of community members.",
+    "crumbs": [
+      "Ethical and Professional Standards",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ethics and Trust in the Investment Profession</span>"
+    ]
+  },
+  {
+    "objectID": "ethics/01.html#ethics-and-professionalism",
+    "href": "ethics/01.html#ethics-and-professionalism",
+    "title": "Ethics and Trust in the Investment Profession",
+    "section": "Ethics and Professionalism",
+    "text": "Ethics and Professionalism",
+    "crumbs": [
+      "Ethical and Professional Standards",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ethics and Trust in the Investment Profession</span>"
+    ]
+  },
+  {
+    "objectID": "ethics/01.html#challenges-to-ethical-conduct",
+    "href": "ethics/01.html#challenges-to-ethical-conduct",
+    "title": "Ethics and Trust in the Investment Profession",
+    "section": "Challenges to Ethical Conduct",
+    "text": "Challenges to Ethical Conduct",
+    "crumbs": [
+      "Ethical and Professional Standards",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ethics and Trust in the Investment Profession</span>"
+    ]
+  },
+  {
+    "objectID": "ethics/01.html#ethical-decision-making-frameworks",
+    "href": "ethics/01.html#ethical-decision-making-frameworks",
+    "title": "Ethics and Trust in the Investment Profession",
+    "section": "Ethical Decision-Making Frameworks",
+    "text": "Ethical Decision-Making Frameworks",
+    "crumbs": [
+      "Ethical and Professional Standards",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ethics and Trust in the Investment Profession</span>"
+    ]
+  },
+  {
+    "objectID": "ethics/01.html#intorduction",
+    "href": "ethics/01.html#intorduction",
+    "title": "Ethics and Trust in the Investment Profession",
+    "section": "",
+    "text": "Businesses and financial markets thrive on trust",
+    "crumbs": [
+      "Ethical and Professional Standards",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Ethics and Trust in the Investment Profession</span>"
+    ]
+  }
+]
